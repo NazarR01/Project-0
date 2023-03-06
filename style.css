@@ -1,0 +1,20 @@
+body {
+  background-image: url(./img/alex-flores-settbasesplash-final-alexflores.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.navbar {
+  background-image: linear-gradient(to bottom, black, #3B0704) !important;
+}
+
+.foot {
+  color: #3B0704;
+  filter: blur(29px);
+}/*# sourceMappingURL=style.css.map */
