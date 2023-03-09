@@ -7,14 +7,14 @@ body {
 }
 
 .nav-link {
-  color: white !important;
+  color: white;
+}
+.nav-link .nav-link :hover {
+  color: black;
+  font-size: large;
 }
 
-.navbar {
-  background-image: linear-gradient(to bottom, black, #3B0704) !important;
-}
-
-.foot {
-  color: #3B0704;
-  filter: blur(29px);
+#activo {
+  color: white;
+  text-shadow: 0 0 5px #FFA800, 0 0 15px #FFA800, 0 0 25px #FFA800, 0 0 35px #f8d99b, 0 0 65px #f8d99b, 0 0 75px #f8d99b, 0 0 90px #f8d99b, 0 0 140px #f8d99b;
 }/*# sourceMappingURL=style.css.map */
