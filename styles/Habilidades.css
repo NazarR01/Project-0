@@ -26,4 +26,29 @@ body {
 .card {
   background-color: transparent !important;
   border: 0;
+}
+
+.order-5 :hover, .order-4 :hover, .order-3 :hover, .order-2 :hover, .order-1 :hover {
+  transform: scale(1.05);
+  transition-duration: 0.2s;
+}
+
+.order-1 :hover {
+  background-color: #00CD90;
+}
+
+.order-2 :hover {
+  background-color: #7809CE;
+}
+
+.order-3 :hover {
+  background-color: #E53A04;
+}
+
+.order-4 :hover {
+  background-color: #0012B4;
+}
+
+.order-5 :hover {
+  background-color: #CC0000;
 }/*# sourceMappingURL=Habilidades.css.map */

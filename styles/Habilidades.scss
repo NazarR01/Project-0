@@ -28,3 +28,33 @@ body {
     background-color: transparent !important;
     border: 0;
 }
+
+%heading {
+    transform: scale(1.05);
+    transition-duration: 0.2s;
+}
+
+.order-1 :hover {
+    @extend %heading;
+    background-color: #00CD90;
+}
+
+.order-2 :hover {
+    @extend %heading;
+    background-color: #7809CE;
+}
+
+.order-3 :hover {
+    @extend %heading;
+    background-color: #E53A04;
+}
+
+.order-4 :hover {
+    @extend %heading;
+    background-color: #0012B4;
+}
+
+.order-5 :hover {
+    @extend %heading;
+    background-color: #CC0000;
+}
