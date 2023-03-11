@@ -1,9 +1,10 @@
 body {
-  background-image: url(/Project-0/img/obsidian-dragon-sett-prestige-lol-splash-art-uhdpaper.com-hd-5.2835.jpg);
+  background-image: url(/img/obsidian-dragon-sett-prestige-lol-splash-art-uhdpaper.com-hd-5.2835.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   overflow: hidden;
+  overflow-y: auto;
 }
 
 .nav-link {
@@ -17,4 +18,19 @@ body {
 #activo {
   color: white;
   text-shadow: 0 0 5px #003CDB, 0 0 15px #003CDB, 0 0 25px #003CDB, 0 0 35px #001aff, 0 0 65px #001aff, 0 0 75px #001aff, 0 0 90px #001aff, 0 0 140px #001aff;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid rgba(1, 0, 1, 0.57);
+}
+
+.text {
+  color: rgba(255, 255, 255, 0.805);
+}
+
+.table-dark {
+  background-color: rgba(0, 0, 0, 0.481) !important;
 }/*# sourceMappingURL=Builds.css.map */

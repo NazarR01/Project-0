@@ -1,9 +1,10 @@
 body {
-  background-image: url(/Project-0/img/sett-mecha-kingdoms-uhdpaper.com-hd-5.1433.jpg);
+  background-image: url(/img/sett-mecha-kingdoms-uhdpaper.com-hd-5.1433.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   overflow: hidden;
+  overflow-y: visible;
 }
 
 .nav-link {
@@ -17,4 +18,20 @@ body {
 #activo {
   color: white;
   text-shadow: 0 0 5px #4DC4DE, 0 0 15px #4DC4DE, 0 0 25px #4DC4DE, 0 0 35px #00fff0, 0 0 65px #00fff0, 0 0 75px #00fff0, 0 0 90px #00fff0, 0 0 140px #00fff0;
-}/*# sourceMappingURL=Matchups.css.map */
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+}
+ul li {
+  margin: 0;
+  padding: 0.5%;
+  color: white;
+}
+
+.container {
+  position: relative;
+  max-width: 100%;
+  margin: 0 auto;
+}/*# sourceMappingURL=Runas.css.map */
