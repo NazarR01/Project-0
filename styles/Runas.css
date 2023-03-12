@@ -20,11 +20,14 @@ body {
   text-shadow: 0 0 5px #4DC4DE, 0 0 15px #4DC4DE, 0 0 25px #4DC4DE, 0 0 35px #00fff0, 0 0 65px #00fff0, 0 0 75px #00fff0, 0 0 90px #00fff0, 0 0 140px #00fff0;
 }
 
-ul {
+.lista {
+  margin-left: 20%;
+  max-width: 50%;
+  background-color: rgba(0, 0, 0, 0.448);
   list-style-type: none;
   text-align: center;
 }
-ul li {
+.lista li {
   margin: 0;
   padding: 0.5%;
   color: white;
@@ -34,4 +37,17 @@ ul li {
   position: relative;
   max-width: 100%;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  .lista {
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .lista li {
+    flex-basis: 50%;
+    text-align: center;
+  }
 }/*# sourceMappingURL=Runas.css.map */
